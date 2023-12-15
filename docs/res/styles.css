@@ -1,0 +1,63 @@
+/* Tags */
+body{
+    background-image: url("../images/bg-pattern-desktop.svg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 60%;
+    margin-top: 60px;
+}
+fieldset{
+    border: solid 0.5px hsl(0, 6%, 24%);
+    width: 60%;
+    border-radius: 35px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+input{
+    height: 100%;
+    border: none;
+}
+button{
+    width: 20%;
+    height: 100%;
+    border: none;
+    border-radius: 35px;
+}
+
+/* Classes */
+.left{
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+.left>h1{
+    font-size: 70px;
+    font-weight: 400;
+    width: 60%;
+}
+.diff1{
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+.left>p{
+    color: hsl(0, 36%, 70%);
+    width: 60%;
+}
