@@ -1,0 +1,11 @@
+{
+    "name":"base-apparel-coming-soon",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author":{
+        "name": "Ntsikayomzi Phenyo Ngcakani"
+    },
+    "scripts":{
+        "start": "node index.js"
+    }
+}
